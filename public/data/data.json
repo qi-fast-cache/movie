@@ -1,0 +1,21 @@
+{  
+    "res" : true,
+    "data":[
+        {
+            "id" : "01",
+            "dataUrl" : "https://p0.meituan.net/128.180/moviemachine/7b9b0725ab5feae642e1fbba9fbb90fe3702078.jpg"
+        },
+        {
+            "id" : "02",
+            "dataUrl" : "https://p0.meituan.net/128.180/movie/c0bec212d759ad52f22bbb280e551c065000875.jpg"
+        },
+        {
+            "id" : "03",
+            "dataUrl" : "https://p0.meituan.net/128.180/movie/c0bec212d759ad52f22bbb280e551c065000875.jpg"
+        },
+        {
+            "id" : "04",
+            "dataUrl" : "https://p0.meituan.net/128.180/movie/c0bec212d759ad52f22bbb280e551c065000875.jpg"
+        }
+    ]
+}
