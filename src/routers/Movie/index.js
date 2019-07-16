@@ -1,31 +1,26 @@
 export default {
-  path: '/movie',
-  name: 'index',
-  component: () => import('@/views/Film/index.vue'),
-  children: [
-    {
-      path: 'city',
-      name: 'city',
-      component: () => import('@/components/Index/City/City.vue')
-    },
-    {
-      path: 'comingsoon',
-      name: 'comingsoon',
-      component: () => import('@/components/Index/ComingSoon/ComingSoon.vue')
-    },
-    {
-      path: 'cilist',
-      name: 'cilist',
-      component: () => import('@/components/Index/Cilist/CiList.vue')
-    },
-    {
-      path: 'nowplaying',
-      name: 'nowPlaying',
-      component: () => import('@/components/Index/NowPlaying/NowPlaying.vue')
-    },
-    {
-      path: '/movie',
-      redirect: '/movie/comingsoon'
-    }
-  ]
+    path : '/movie',
+    component : () => import('@/views/Movie'),
+    children : [
+        {
+            path : 'city',
+            component : () => import('@/components/City')
+        },
+        {
+            path : 'nowPlaying',
+            component : () => import('@/components/NowPlaying')
+        },
+        {
+            path : 'comingSoon',
+            component : () => import('@/components/ComingSoon')
+        },
+        {
+            path : 'search',
+            component : () => import('@/components/Search')
+        },
+        {
+            path : '/movie',
+            redirect : '/movie/nowPlaying'
+        }
+    ]
 }
